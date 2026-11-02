@@ -29,7 +29,7 @@
           <mxGeometry x="348" y="480" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-9" value="Archive快照文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="278" y="590" width="205" height="49" as="geometry" />
+          <mxGeometry x="308" y="600" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-10" value="S6 · 最终点云输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="30" y="700" width="188" height="49" as="geometry" />
@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-23" value="Archive + Final 过滤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="680" width="205" height="49" as="geometry" />
+          <mxGeometry x="308" y="680" width="172" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
