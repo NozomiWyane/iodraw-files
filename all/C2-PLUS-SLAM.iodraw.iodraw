@@ -20,7 +20,7 @@
           <mxGeometry x="453" y="296" width="224" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-6" value="Sparse Map&#xa;多分辨率 · Active / Inactive" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="649" y="590" width="260" height="67" as="geometry" />
+          <mxGeometry x="649" y="500" width="260" height="67" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-7" value="Temporal ICP + Deformation Graph" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="581" y="729" width="197" height="67" as="geometry" />
@@ -83,11 +83,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-18" value="局部 Sparse Surfel" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-5" target="IZde01KDdYg8FMScSJoG-6">
+        <mxCell id="IZde01KDdYg8FMScSJoG-18" value="局部 Sparse Surfel" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-5" target="IZde01KDdYg8FMScSJoG-6">
           <mxGeometry x="-0.2424" y="-3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="713" y="370" />
               <mxPoint x="713" y="553" />
+              <mxPoint x="730" y="480" />
+              <mxPoint x="750" y="480" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
