@@ -1,0 +1,119 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.7.0 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="QQsIAhNEkdspzm8KmKDH">
+    <mxGraphModel dx="1434" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IZde01KDdYg8FMScSJoG-1" value="Plus · 地图融合与全局优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="243" y="443" width="702" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-2" value="C2 · 连续时间局部优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="137" width="543" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-3" value="S2 / Magician&#xa;LiDAR + IMU + 初始位姿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="524" y="20" width="228" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-4" value="连续时间轨迹优化&#xa;IMU + Surfel 匹配 + Map Prior" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="523" y="162" width="230" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-5" value="优化轨迹 + 点云去畸变" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="453" y="296" width="224" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-6" value="Sparse Map&#xa;多分辨率 · Active / Inactive" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="649" y="590" width="260" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-7" value="Temporal ICP + Deformation Graph" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="581" y="729" width="197" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-8" value="Dense Surfel 融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="348" y="468" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-9" value="Archive + Final 过滤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" y="599" width="205" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-10" value="S6 · 最终点云输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="738" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-4" target="IZde01KDdYg8FMScSJoG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=0.99;entryX=0.46;entryY=0.01;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-6" target="IZde01KDdYg8FMScSJoG-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="663" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-13" value="地图校正" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=0.01;entryX=0.6;entryY=0.99;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-7" target="IZde01KDdYg8FMScSJoG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-14" value="弹性形变" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=0.01;entryX=0.74;entryY=1;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-7" target="IZde01KDdYg8FMScSJoG-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="693" />
+              <mxPoint x="553" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.37;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-8" target="IZde01KDdYg8FMScSJoG-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-3" target="IZde01KDdYg8FMScSJoG-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-17" value="轨迹 + 去畸变点云" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-5" target="IZde01KDdYg8FMScSJoG-8">
+          <mxGeometry x="0.1769" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-18" value="局部 Sparse Surfel" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-5" target="IZde01KDdYg8FMScSJoG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="370" />
+              <mxPoint x="713" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-19" value="冻结 Sparse Map Prior" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0;entryX=1;entryY=0.96;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-6" target="IZde01KDdYg8FMScSJoG-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="837" y="553" />
+              <mxPoint x="837" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-20" value="更新 Sparse 地图" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=1;entryX=0;entryY=0.06;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-8" target="IZde01KDdYg8FMScSJoG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-9" target="IZde01KDdYg8FMScSJoG-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
