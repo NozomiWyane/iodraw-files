@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IZde01KDdYg8FMScSJoG-1" value="Plus · 地图融合与全局优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IZde01KDdYg8FMScSJoG-1" value="Plus · 地图融合与全局优化" style="whiteSpace=wrap;strokeWidth=2;align=left;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="243" y="443" width="702" height="378" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-2" value="C2 · 连续时间局部优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
