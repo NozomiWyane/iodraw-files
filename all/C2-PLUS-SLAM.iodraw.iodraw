@@ -11,7 +11,7 @@
           <mxGeometry x="372" y="137" width="543" height="233" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-3" value="S2 / Magician&#xa;LiDAR + IMU + 初始位姿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="160" width="228" height="80" as="geometry" />
+          <mxGeometry x="80" y="163" width="228" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-4" value="连续时间轨迹优化&#xa;IMU + Surfel 匹配 + Map Prior" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="523" y="160" width="230" height="86" as="geometry" />
@@ -91,7 +91,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-19" value="冻结 Sparse Map Prior" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0;entryX=1;entryY=0.96;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-6" target="IZde01KDdYg8FMScSJoG-4">
+        <mxCell id="IZde01KDdYg8FMScSJoG-19" value=" Sparse Map Prior" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0;entryX=1;entryY=0.96;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-6" target="IZde01KDdYg8FMScSJoG-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="837" y="553" />
