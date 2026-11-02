@@ -26,7 +26,7 @@
           <mxGeometry x="581" y="729" width="197" height="67" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-8" value="Dense Surfel 融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="348" y="468" width="187" height="49" as="geometry" />
+          <mxGeometry x="348" y="480" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-9" value="Archive + Final 过滤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="278" y="599" width="205" height="49" as="geometry" />
@@ -56,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-14" value="弹性形变" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=0.01;entryX=0.74;entryY=1;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-7" target="IZde01KDdYg8FMScSJoG-8">
-          <mxGeometry x="0.1516" relative="1" as="geometry">
+          <mxGeometry x="-0.0395" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="553" y="693" />
               <mxPoint x="553" y="553" />
@@ -101,10 +101,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-20" value="更新 Sparse 地图" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.06;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-8" target="IZde01KDdYg8FMScSJoG-6">
+        <mxCell id="IZde01KDdYg8FMScSJoG-20" value="更新 Sparse 地图" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=-0.008;entryY=0.418;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-8" target="IZde01KDdYg8FMScSJoG-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="466" y="553" />
+              <mxPoint x="550" y="534" />
             </Array>
           </mxGeometry>
         </mxCell>
