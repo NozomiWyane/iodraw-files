@@ -23,7 +23,7 @@
           <mxGeometry x="649" y="500" width="260" height="67" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-7" value="Temporal ICP + Deformation Graph" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="581" y="720" width="197" height="67" as="geometry" />
+          <mxGeometry x="677" y="671" width="197" height="67" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-8" value="Dense Surfel 融合" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="348" y="480" width="187" height="49" as="geometry" />
