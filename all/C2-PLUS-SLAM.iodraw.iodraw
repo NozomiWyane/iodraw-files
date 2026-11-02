@@ -11,7 +11,7 @@
           <mxGeometry x="372" y="137" width="543" height="233" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-3" value="S2 / Magician&#xa;LiDAR + IMU + 初始位姿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="524" y="20" width="228" height="67" as="geometry" />
+          <mxGeometry x="50" y="160" width="228" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-4" value="连续时间轨迹优化&#xa;IMU + Surfel 匹配 + Map Prior" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="523" y="162" width="230" height="84" as="geometry" />
