@@ -29,7 +29,7 @@
           <mxGeometry x="348" y="480" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-9" value="Archive + Final 过滤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="278" y="607.5" width="205" height="49" as="geometry" />
+          <mxGeometry x="278" y="640" width="205" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-10" value="S6 · 最终点云输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="30" y="720" width="188" height="49" as="geometry" />
@@ -69,6 +69,11 @@
             <Array as="points">
               <mxPoint x="380" y="553" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-22" value="融合结束后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZde01KDdYg8FMScSJoG-15">
+          <mxGeometry x="0.201" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-16" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-3" target="IZde01KDdYg8FMScSJoG-4">
@@ -114,6 +119,9 @@
               <mxPoint x="380" y="693" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IZde01KDdYg8FMScSJoG-23" value="Archive + Final 过滤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="288" y="650" width="205" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
