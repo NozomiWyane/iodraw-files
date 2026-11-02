@@ -10,13 +10,13 @@
         <mxCell id="IZde01KDdYg8FMScSJoG-2" value="C2 · 连续时间局部优化" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="372" y="137" width="543" height="233" as="geometry" />
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-3" value="S2 / Magician&#xa;LiDAR + IMU + 初始位姿" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IZde01KDdYg8FMScSJoG-3" value="S2 / Magician&#xa;LiDAR + IMU + 初始位姿" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="160" width="228" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-4" value="连续时间轨迹优化&#xa;IMU + Surfel 匹配 + Map Prior" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IZde01KDdYg8FMScSJoG-4" value="连续时间轨迹优化&#xa;IMU + Surfel 匹配 + Map Prior" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="523" y="160" width="230" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="IZde01KDdYg8FMScSJoG-5" value="优化轨迹 + 点云去畸变" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IZde01KDdYg8FMScSJoG-5" value="优化轨迹 + 点云去畸变" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="453" y="296" width="224" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-6" value="Sparse Map&#xa;多分辨率 · Active / Inactive" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
