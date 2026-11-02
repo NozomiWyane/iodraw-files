@@ -84,11 +84,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-18" value="局部 Sparse Surfel" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-5" target="IZde01KDdYg8FMScSJoG-6">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.2424" y="-3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="713" y="370" />
               <mxPoint x="713" y="553" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-19" value=" Sparse Map Prior" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=0;entryX=1;entryY=0.96;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-6" target="IZde01KDdYg8FMScSJoG-4">
