@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IZde01KDdYg8FMScSJoG-1" value="Plus · 地图融合与全局优化" style="whiteSpace=wrap;strokeWidth=2;align=center;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="243" y="443" width="702" height="378" as="geometry" />
+          <mxGeometry x="243" y="443" width="702" height="327" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-2" value="C2 · 连续时间局部优化" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="372" y="137" width="543" height="233" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="308" y="600" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-10" value="S6 · 最终点云输出" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="30" y="700" width="188" height="49" as="geometry" />
+          <mxGeometry x="30" y="689" width="188" height="49" as="geometry" />
         </mxCell>
         <mxCell id="IZde01KDdYg8FMScSJoG-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="IZde01KDdYg8FMScSJoG-4" target="IZde01KDdYg8FMScSJoG-5">
           <mxGeometry relative="1" as="geometry">
